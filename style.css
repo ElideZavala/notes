@@ -42,8 +42,19 @@ a {
 	padding: 1rem;
 	background-color: rgb(255, 51, 0);
 	background-image: url(image/ovni.png);
-	text-shadow: 0 0 20px rgb(21, 6, 235);
-	color: rgb(255, 255, 255);
+	text-shadow: 0 5px 10px rgb(21, 6, 235);
+	color: white;
+	font-weight: 700;
 	transform: skewX(-20deg);
 	border: solid 2px #000;
+}
+
+.algorithms {
+	padding: 1rem;
+	background-color: rgb(37, 148, 212);
+	background-image: url(image/redes.png);
+	text-shadow: 0 0 20px rgb(21, 6, 235);
+	color: rgb(255, 255, 255);
+	transform: skewY(10deg);
+	border: solid 2px rgb(44, 87, 9);
 }
